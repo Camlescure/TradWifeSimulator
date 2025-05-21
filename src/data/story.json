@@ -48,10 +48,14 @@
     "choices" : [
       { "text": "Malheureusement, 0. Tu n'as pas encore eu le loisir d'accueillir la vie, mais ça ne saurait tarder, chaque chose en son temps.", "next": "FIN1" },
       { "text": "2 enfants, un garçon et une fille, ce sont des amours", "next": "4" },
-      { "text": "9 enfants ! Et tu ne comptes pas t'arrêter là. Tu adores prendre soin de ta petite tribu", "next": "4"}444444
+      { "text": "9 enfants ! Et tu ne comptes pas t'arrêter là. Tu adores prendre soin de ta petite tribu", "next": "4"}
     ],
     "backgroundImage": "/img/couisine.jpg"
-  }, 
+  },
+  "4": {
+    "text": "",
+    "choices": []
+  },
   "FIN1": {
     "text": "0 enfant ! Réveille toi ma grande ! On t'héberge pas pour ta laine ! Il s'agirait de s'y filer, ton mari a besoin d'une descendance."
   }
