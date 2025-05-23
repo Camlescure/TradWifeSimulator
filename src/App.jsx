@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import story from './data/story.json'; 
+import story from './data/story.tsx';
 import StoryNode from './components/StoryNode';
 
 function App() {
@@ -29,7 +29,7 @@ function App() {
         margin: 'auto',
         boxShadow: '0 4px 10px rgba(0,0,0,0.1)'}}
       >
-        <h1>📖 Livre dont vous êtes le héros</h1>
+        <h1>👰🏻 Tradwife simulator 💍</h1>
         <StoryNode node={currentNode} onChoice={handleChoice} />
       </div>
     </div>
